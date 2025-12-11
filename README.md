@@ -110,4 +110,14 @@ python -m streamlit run app.py
 - Supplier table (Supplier, Engagement Level, Risk Score, Category)
 - Works with no need to upload files — the XLSX is read directly.
 
-- 
+## 🧪 How to Use the Notebook
+
+- Open riskscoringsystem.ipynb
+- Load your PO dataset
+- Run all cells sequentially
+- The notebook:
+- Cleans and preprocesses data
+- Aggregates KPIs
+- Normalizes globally
+- Exports final Excel file
+- Launch Streamlit to explore results interactively
